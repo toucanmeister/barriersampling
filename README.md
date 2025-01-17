@@ -1,6 +1,6 @@
 # Barrier Sampling
 
-This package implements Nested Sampling with Barriers as introduced in my thesis (which is included in this repository).
+This package implements Nested Sampling with Barriers as introduced in my thesis (which is included in the GitHub repository).
 
 It lets you do Bayesian statistical inference on generative models.
 See also the original Nested Sampling paper by Skilling \[1\].
