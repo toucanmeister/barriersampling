@@ -21,6 +21,8 @@ For LRPS, two methods have been implemented:
 - the Metropolis algorithm \[2\]
 - Hamiltonian Monte Carlo \[3\]
 
+If you want to implement your own method of LRPS, I suggest forking this repository, adding a new method to the `BarrierSampler` class, and registering it in `get_sampling_method`.
+
 ## References
 
 - \[1\] John Skilling. "Nested sampling for general Bayesian computation." Bayesian Analysis 1 (4) 833 - 859, 2006. https://doi.org/10.1214/06-BA127
