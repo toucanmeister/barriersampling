@@ -1,1 +1,0 @@
-from barrier_sampling import BarrierSampler

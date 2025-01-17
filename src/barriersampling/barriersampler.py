@@ -127,7 +127,7 @@ class BarrierSampler:
         -- metropolis_starting_step_size: If using Metropolis for LRPS, this defines the starting step size.
         -- metropolis_num_steps: If using Metropolis for LRPS, this defines the number of steps per Markov chain for one sample.
         -- hmc_jax_loglike: REQUIRED IF USING HMC FOR LRPS. The loglikelihood function of the model, defined using jax.numpy.
-        -- hmc_jax_logprior: REQUIRED IF USING HMC FOR LRPS. The prior probability function of the model, defined using jax.numpy.
+        -- hmc_jax_logprior: REQUIRED IF USING HMC FOR LRPS. The prior log-probability function of the model, defined using jax.numpy.
         -- hmc_path_len: If using HMC for LRPS, this defines the length of the integration path of each proposal.
         -- hmc_step_size: If using HMC for LRPS, this defines the length of the integration steps. Each path contains int(hmc_path_len / hmc_step_size) - 1) steps.
         -- hmc_chain_len: If using HMC for LRPS, this defines the number of paths integrated for one sample.

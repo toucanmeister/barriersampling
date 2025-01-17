@@ -1,23 +1,28 @@
 [build-system]
-requires = ["setuptools>=61.0", "numpy", "jax", scipy", "matplotlib"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "example_package_YOUR_USERNAME_HERE"
+dependencies = [
+	"numpy",
+	"jax",
+	"matplotlib",
+	"scipy"
+]
+name = "barriersampling"
 version = "0.0.1"
 authors = [
-  { name="Example Author", email="author@example.com" },
+  { name="Farin Lippmann", email="toucanmeister@gmail.com" },
 ]
-description = "A small example package"
+description = "Implementation of Nested Sampling with Barriers"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-license = "MIT"
-license-files = ["LICEN[CS]E*"]
+license =  {text = "MIT", files=["LICEN[CS]E*"]}
+keywords = ['python', 'statistics', 'sampling', 'bayes', 'optimization']
 
 [project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
-Issues = "https://github.com/pypa/sampleproject/issues"
+Homepage = "https://github.com/toucanmeister/barriersampling"
