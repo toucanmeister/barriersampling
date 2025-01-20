@@ -5,6 +5,13 @@ This package implements Nested Sampling with Barriers as introduced in my thesis
 It lets you do Bayesian statistical inference on generative models.
 See also the original Nested Sampling paper by Skilling \[1\].
 
+## Installation
+The easiest way to install this package is via `pip`:
+
+```
+	pip install barriersampling
+```
+
 ## Usage
 
 To use this algorithm, you need to implement:

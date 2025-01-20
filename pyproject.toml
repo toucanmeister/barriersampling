@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = [
+	"numpy",
+	"jax",
+	"matplotlib",
+	"scipy"
+]
+name = "barriersampling"
+version = "0.0.2"
+authors = [
+  { name="Farin Lippmann", email="toucanmeister@gmail.com" },
+]
+description = "Implementation of Nested Sampling with Barriers"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license =  {text = "MIT", files=["LICEN[CS]E*"]}
+keywords = ['python', 'statistics', 'sampling', 'bayes', 'optimization']
+
+[project.urls]
+Homepage = "https://github.com/toucanmeister/barriersampling"
